@@ -27,8 +27,8 @@ int main(void)
     printf(" wed ");
     printf(" thu ");
     printf(" fry ");
-    printf(" sat ");
-    printf(" sun ");
+    printf("\033[34m sat \033[0m");
+    printf("\033[31m sun \033[0m");
     printf("\n");
     printf("\n");
 
